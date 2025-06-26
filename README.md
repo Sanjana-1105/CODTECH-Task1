@@ -36,3 +36,6 @@ Build a tool to monitor changes in files by calculating and comparing their hash
 2. To **scan and save hash values**:
    ```bash
    python file_integrity_checker.py scan your_folder --ref ref.json
+3. To **vertify hash values**:
+   ```bash
+   python file_integrity_checker.py verify your_folder --ref ref.json
